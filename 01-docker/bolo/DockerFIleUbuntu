@@ -1,0 +1,9 @@
+FROM ubuntu:latest
+
+ENTRYPOINT [ "echo" ,"Nunca vou te abandonar MUAHAHAHHA" ]
+CMD [ "\nhello world" ]
+
+# docker ps -a -q
+
+# docker rm $(docker ps -a -q)
+
